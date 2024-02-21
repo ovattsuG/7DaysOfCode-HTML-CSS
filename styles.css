@@ -1,7 +1,7 @@
 :root {
     --braco-padrao: #FFFFFF;
     --cor-do-texto: #667085;
-    --cor-button: #8E2424;
+    --vermelho-padrao: #8E2424;
   }
   
   * {
@@ -14,6 +14,7 @@
   body {
     width: 100%;
     height: 100vh;
+    font-family: 'Inter', sans-serif;
   }
   
 .navbar{
@@ -27,11 +28,13 @@
     width: 148px;
     height: 27px;
 }
+.links{
+  margin-right: 15em;
+}
 .links a{
     text-decoration: none;
     color: var(--cor-do-texto);
     padding: 1em;
-    margin-right: 1em;
     font-size: 16px;
     font-weight: 500;
 }
@@ -54,5 +57,34 @@
     font-weight: 500;
     font-size: 16px;
     color: var(--braco-padrao);
-    background-color: var(--cor-button);
+    background-color: var(--vermelho-padrao);
 }
+
+/* CSS cabeçalho */
+
+.cabeçalho{
+  display: block;
+  text-align: center;
+  margin-top: 4em;
+}
+.titulo_cabeçalho{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 1em;
+  color: var(--vermelho-padrao);
+}
+.titulo2_cabeçalho{
+  font-size: 48px;
+  font-weight: 600;
+  padding: 1em;
+}
+.texto_padrao_header{
+  margin: 0 18em;
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--cor-do-texto);
+  text-align: center;
+}
+
+/* CSS metricas*/
