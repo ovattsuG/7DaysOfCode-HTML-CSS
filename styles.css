@@ -98,6 +98,7 @@
 }
 .metrica{
   padding: 0 1em;
+  margin-bottom: 8em;
 }
 #valor_metricas{
   font-size: 60px;
@@ -114,4 +115,33 @@
   font-size: 16px;
   font-weight: 400;
   color: var(--cor-do-texto);
+}
+.talentos{
+  text-align: center;
+}
+.badge{
+  width: 125px;
+  height: 28px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 4px 12px 4px 12px;
+  border-radius: 16px;
+  color: var(--vermelho-padrao);
+  background-color:#8E24240D;
+}
+.text{
+  margin: 0.5em 0;
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--cinza-titulos);
+}
+.texto_supporting{
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--cor-do-texto);
+  margin-bottom: 3em;
+}
+.img_reuniao{
+  width: 1280px;
+  height: 602;
 }
