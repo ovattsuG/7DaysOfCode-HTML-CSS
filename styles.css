@@ -1,87 +1,96 @@
 :root {
-    --braco-padrao: #FFFFFF;
-    --cor-do-texto: #667085;
-    --vermelho-padrao: #8E2424;
-    --cinza-titulos:#101828;
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-  }
-  
-  body {
-    width: 100%;
-    height: 100vh;
-    font-family: 'Inter', sans-serif;
-  }
-  
-.navbar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1em 0em;
+  --braco-padrao: #FFFFFF;
+  --cor-do-texto: #667085;
+  --vermelho-padrao: #8E2424;
+  --cinza-titulos: #101828;
+  /* --cinza-vagas:#f3f5f8 */
 }
-.img_logo{
-    cursor: pointer;
-    width: 148px;
-    height: 27px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
-.links{
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em 0em;
+}
+
+.img_logo {
+  cursor: pointer;
+  width: 148px;
+  height: 27px;
+}
+
+.links {
   margin-right: 15em;
 }
-.links a{
-    text-decoration: none;
-    color: var(--cor-do-texto);
-    padding: 1em;
-    font-size: 16px;
-    font-weight: 500;
+
+.links a {
+  text-decoration: none;
+  color: var(--cor-do-texto);
+  padding: 1em;
+  font-size: 16px;
+  font-weight: 500;
 }
-.button_entrar{
-    cursor: pointer;
-    width: 83px;
-    height: 44px;
-    font-weight: 500;
-    font-size:16px;
-    border: none;
-    background-color: transparent;
+
+.button_entrar {
+  cursor: pointer;
+  width: 83px;
+  height: 44px;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
 }
-.button_cadastrar{  
-    cursor: pointer;
-    width: 112px;
-    height: 44px;
-    border: 1px;
-    border-color: var(--cor-button);
-    border-radius: 8px;
-    font-weight: 500;
-    font-size: 16px;
-    color: var(--braco-padrao);
-    background-color: var(--vermelho-padrao);
+
+.button_cadastrar {
+  cursor: pointer;
+  width: 112px;
+  height: 44px;
+  border: 1px;
+  border-color: var(--cor-button);
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--braco-padrao);
+  background-color: var(--vermelho-padrao);
 }
 
 /* CSS cabeçalho */
 
-.cabeçalho{
+.cabeçalho {
   display: block;
   text-align: center;
   margin-top: 4em;
   margin-bottom: 8em;
 }
-.titulo_cabeçalho{
+
+.titulo_cabeçalho {
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 1em;
   color: var(--vermelho-padrao);
 }
-.titulo2_cabeçalho{
+
+.titulo2_cabeçalho {
   font-size: 48px;
   font-weight: 600;
   padding: 1em;
 }
-.texto_padrao_header{
+
+.texto_padrao_header {
   margin: 0 18em;
   font-weight: 400;
   font-size: 20px;
@@ -91,35 +100,45 @@
 
 /* CSS metricas*/
 
-.metricas_container{
-  display:grid;
+.metricas_container {
+  display: grid;
   grid-template-columns: 25% 25% 25% 25%;
-  margin: 0 6em;
+  margin: 0 2em;
 }
-.metrica{
+
+.metrica {
   padding: 0 1em;
   margin-bottom: 8em;
 }
-#valor_metricas{
+
+#valor_metricas {
   font-size: 60px;
   font-weight: 600;
   color: var(--vermelho-padrao);
 }
-#titulo_metricas{
+
+#titulo_metricas {
   font-size: 18px;
   font-weight: 500;
   padding: 1em 0;
   color: var(--cinza-titulos);
 }
-#descricao_metricas{
+
+#descricao_metricas {
   font-size: 16px;
   font-weight: 400;
   color: var(--cor-do-texto);
 }
-.talentos{
-  text-align: center;
+
+/* CSS Vagas */
+
+.talentos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.badge{
+
+.badge {
   width: 125px;
   height: 28px;
   font-size: 14px;
@@ -127,21 +146,65 @@
   padding: 4px 12px 4px 12px;
   border-radius: 16px;
   color: var(--vermelho-padrao);
-  background-color:#8E24240D;
+  background-color: #8E24240D;
 }
-.text{
+
+.text {
   margin: 0.5em 0;
   font-size: 36px;
   font-weight: 600;
   color: var(--cinza-titulos);
 }
-.texto_supporting{
+
+.texto_supporting {
   font-size: 20px;
   font-weight: 400;
   color: var(--cor-do-texto);
   margin-bottom: 3em;
 }
-.img_reuniao{
+
+.img_reuniao {
   width: 1280px;
   height: 602;
+}
+
+.vagas_disponiveis {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25em;
+  margin-top: 5em;
+}
+
+.titulo_area_vaga {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--cinza-titulos);
+  margin-bottom: 2em;
+}
+
+.vaga_empresa{
+  width: 48em;
+  height: 8.5em;
+  border:solid 1px;
+  background-color: var(--cinza-vagas);
+  padding: 24px 24px 28px 24px;
+  border-radius: 16px;
+  margin-bottom: 2em;
+}
+.titulo_vaga{
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--cinza-titulos);
+  padding: 1em;
+}
+.informacoes{
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--cor-do-texto);
+  padding: 1em;
+  margin-top: 1em;
+}
+.info{
+  padding-right: 1em;
+  padding-left: 0.4em;
 }
