@@ -28,7 +28,9 @@
 
 <h3>Dia 6 - Seção de Depoimentos e Parte Finalização</h3>
 ---Desenvolvimento da seção de depoimentos, exibindo feedbacks de colaboradores sobre a empresa.
+
 ---Criação dda section que contém um formulario para cadastrar e-mail.
+
 ---Ajustes finais na página, garantindo que todos os elementos estejam funcionando corretamente e a estilização esteja consistente.
 
 
