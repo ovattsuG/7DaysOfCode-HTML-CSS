@@ -28,9 +28,11 @@ Conclusão da seção de vagas, incluindo detalhes sobre as diferentes posiçõe
 
 <h3>Dia 6 - Seção de Depoimentos e Parte Finalização</h3>
 Desenvolvimento da seção de depoimentos, exibindo feedbacks de colaboradores sobre a empresa.
+
 Criação dda section que contém um formulario para cadastrar e-mail.
+
 Ajustes finais na página, garantindo que todos os elementos estejam funcionando corretamente e a estilização esteja consistente.
 
 
-Conclusão
+<h3>Conclusão</h3>
 O Desafio 7 Dias de Código da Alura foi uma oportunidade incrível para praticar e aprimorar habilidades em desenvolvimento web. O projeto Optimus foi um desafio gratificante e resultou em uma página web completa e funcional, pronta para ser utilizada pela empresa fictícia OptimusTech. Agora como proposta futura é deixar ele 100% responsivo e subir os reajuste aqui.
