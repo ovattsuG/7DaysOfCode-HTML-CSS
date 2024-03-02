@@ -27,10 +27,8 @@ Criação da estrutura inicial da seção de vagas, listando as oportunidades de
 Conclusão da seção de vagas, incluindo detalhes sobre as diferentes posições.
 
 <h3>Dia 6 - Seção de Depoimentos e Parte Finalização</h3>
-Desenvolvimento da seção de depoimentos, exibindo feedbacks de colaboradores sobre a empresa.
-
-Criação dda section que contém um formulario para cadastrar e-mail.
-
+Desenvolvimento da seção de depoimentos, exibindo feedbacks de colaboradores sobre a empresa.<br>
+Criação dda section que contém um formulario para cadastrar e-mail.<br>
 Ajustes finais na página, garantindo que todos os elementos estejam funcionando corretamente e a estilização esteja consistente.
 
 
